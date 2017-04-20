@@ -339,3 +339,112 @@ LogInit: Object subsystem initialized
 [2017.04.20-19.45.29:823][106]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blueMaterial, compiling. 
 [2017.04.20-19.45.29:836][106]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blueMaterial, compiling. 
 [2017.04.20-19.46.13:365][463]Job is a success!
+[2017.04.20-19.46.16:945][464]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.04.20-19.46.16:945][464]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.04.20-19.46.16:945][464]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.04.20-19.46.16:945][464]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.04.20-19.46.16:945][464]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2017.04.20-19.46.16:945][464]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2017.04.20-19.46.18:240][464]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2017.04.20-19.46.18:240][464]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2017.04.20-19.46.18:330][464]Lightmass on VOSTRO: 45.5 sec total, 407 ms importing, 95 ms setup, 7.86 sec photons, 37.1 sec processing, 0 ms extra exporting [49/49 mappings]. Threads: 2:28 min total, 1:35 min processing.
+[2017.04.20-19.46.18:343][464]LogStaticLightingSystem: Illumination: 52.7 sec (3.35 sec encoding lightmaps, 1.29 sec encoding shadowmaps)
+[2017.04.20-19.46.18:343][464]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (4.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.04.20-19.46.18:343][464]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.04.20-19.46.18:430][465]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.04.20-19.46.18:430][465]MapCheck: New page: MazeOne - Apr 20, 2017, 10:46:18 AM
+[2017.04.20-19.46.18:530][465]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 99.497ms to complete.
+[2017.04.20-19.55.27:945][271]LogSavePackage: Save=113.78ms
+[2017.04.20-19.55.27:945][271]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOne_Auto309376CC94DD06363E702CDA7D52256F5.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/Autosaves/Game/MazeOne_Auto3.umap'
+[2017.04.20-19.55.27:948][271]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/Autosaves/Game/MazeOne_Auto3.umap
+[2017.04.20-19.55.27:951][271]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MazeOne' took 0.188
+[2017.04.20-19.55.27:951][271]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.188
+[2017.04.20-20.02.41:090][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x546)
+[2017.04.20-20.03.13:210][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x518)
+[2017.04.20-20.03.26:474][613]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x527)
+[2017.04.20-20.03.37:666][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x518)
+[2017.04.20-20.04.06:008][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x542)
+[2017.04.20-20.04.25:587][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x516)
+[2017.04.20-20.05.08:625][101]LogEditorViewport: Clicking on Actor (context menu): PointLight (PointLight)
+[2017.04.20-20.05.31:811][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.20-20.05.33:147][457]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.04.20-20.05.33:740][487]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.04.20-20.05.37:949][717]Cmd: DELETE
+[2017.04.20-20.05.37:949][717]Cmd: ACTOR DELETE
+[2017.04.20-20.05.37:952][717]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-20.05.37:989][717]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2017.04.20-20.05.42:732][957]Cmd: TRANSACTION UNDO
+[2017.04.20-20.05.42:732][957]LogEditorTransaction: Undo Delete Actors
+[2017.04.20-20.05.43:751][ 13]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.04.20-20.05.45:364][104]LogEditorViewport: Clicking on Actor (context menu): PointLight (PointLight)
+[2017.04.20-20.05.57:249][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.20-20.05.58:561][835]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.04.20-20.05.59:618][893]LogEditorViewport: Clicking on Actor (context menu): PointLight (PointLight)
+[2017.04.20-20.06.05:659][234]Cmd: DELETE
+[2017.04.20-20.06.05:659][234]Cmd: ACTOR DELETE
+[2017.04.20-20.06.05:662][234]LogEditorActor: Deleted Actor: PointLight
+[2017.04.20-20.06.05:698][234]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2017.04.20-20.06.10:333][421]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x516)
+[2017.04.20-20.06.34:096][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x528)
+[2017.04.20-20.06.54:356][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x542)
+[2017.04.20-20.07.28:383][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x502)
+[2017.04.20-20.08.25:985][148]LogSavePackage: Save=111.38ms
+[2017.04.20-20.08.25:985][148]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOne_Auto4929B03654B426D54B8527C87B1359329.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/Autosaves/Game/MazeOne_Auto4.umap'
+[2017.04.20-20.08.25:987][148]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/Autosaves/Game/MazeOne_Auto4.umap
+[2017.04.20-20.08.25:993][148]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MazeOne' took 0.182
+[2017.04.20-20.08.25:993][148]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.182
+[2017.04.20-20.08.33:821][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x502)
+[2017.04.20-20.09.15:129][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.20-20.09.16:109][740]LogSavePackage: Save=940.82ms
+[2017.04.20-20.09.16:109][740]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOne71DC7E2D4D2EB17D89E8AFB3614E9F55.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
+[2017.04.20-20.09.16:117][740]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
+[2017.04.20-20.09.19:258][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x525)
+[2017.04.20-20.09.20:768][  6]Cmd: EDIT COPY
+[2017.04.20-20.09.24:117][206]Cmd: EDIT PASTE
+[2017.04.20-20.09.42:716][947]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.04.20-20.09.42:857][949]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2017.04.20-20.09.44:828][ 63]Cmd: TRANSACTION UNDO
+[2017.04.20-20.09.44:828][ 63]LogEditorTransaction: Undo Clicking on Components
+[2017.04.20-20.09.46:093][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x547)
+[2017.04.20-20.10.31:346][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x521)
+[2017.04.20-20.10.58:522][299]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x543)
+[2017.04.20-20.11.01:113][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2017.04.20-20.11.41:342][885]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x504)
+[2017.04.20-20.12.07:379][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x520)
+[2017.04.20-20.12.09:365][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.20-20.12.10:436][815]LogSavePackage: Save=972.08ms
+[2017.04.20-20.12.10:436][815]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOne7140FA4E40E5BA8F3C04789C0A105C40.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
+[2017.04.20-20.12.10:442][815]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
+[2017.04.20-20.12.26:467][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x520)
+[2017.04.20-20.13.22:131][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x546)
+[2017.04.20-20.13.42:728][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x526)
+[2017.04.20-20.13.53:262][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x527)
+[2017.04.20-20.14.02:438][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x518)
+[2017.04.20-20.14.48:226][468]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x541)
+[2017.04.20-20.15.00:642][890]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x543)
+[2017.04.20-20.15.24:983][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x521)
+[2017.04.20-20.15.42:234][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x518)
+[2017.04.20-20.16.10:326][358]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x518)
+[2017.04.20-20.16.17:860][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x518)
+[2017.04.20-20.16.58:503][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x541)
+[2017.04.20-20.16.59:319][973]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_500x541)
+[2017.04.20-20.17.00:982][ 69]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x541)
+[2017.04.20-20.17.04:766][293]Cmd: EDIT COPY
+[2017.04.20-20.17.05:170][316]Cmd: EDIT PASTE
+[2017.04.20-20.17.44:243][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x548)
+[2017.04.20-20.18.21:042][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x518)
+[2017.04.20-20.19.57:486][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x541)
+[2017.04.20-20.20.08:031][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.20-20.20.09:114][960]LogSavePackage: Save=984.78ms
+[2017.04.20-20.20.09:114][960]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOne616EA5BA4E8A47FE382BC6BAA0125413.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
+[2017.04.20-20.20.09:124][960]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
+[2017.04.20-20.20.11:493][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x548)
+[2017.04.20-20.20.15:365][268]Cmd: EDIT COPY
+[2017.04.20-20.20.16:524][337]Cmd: EDIT PASTE
+[2017.04.20-20.20.41:751][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.20-20.20.52:772][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
+[2017.04.20-20.21.28:718][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.20-20.21.30:266][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
+[2017.04.20-20.21.52:343][869]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.04.20-20.22.07:645][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x548)
+[2017.04.20-20.22.10:459][747]LogEditorViewport: Clicking on Actor (LMB):
