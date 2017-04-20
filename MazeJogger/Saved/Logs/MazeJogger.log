@@ -447,4 +447,117 @@ LogInit: Object subsystem initialized
 [2017.04.20-20.21.30:266][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
 [2017.04.20-20.21.52:343][869]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
 [2017.04.20-20.22.07:645][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x548)
-[2017.04.20-20.22.10:459][747]LogEditorViewport: Clicking on Actor (LMB):
+[2017.04.20-20.22.10:459][747]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.20-20.22.14:076][877]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x548)
+[2017.04.20-20.24.02:152][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x549)
+[2017.04.20-20.24.09:225][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.20-20.24.10:174][638]LogSavePackage: Save=912.20ms
+[2017.04.20-20.24.10:174][638]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneB474070E42E2EAD618742F9C4D4E8195.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
+[2017.04.20-20.24.10:180][638]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
+[2017.04.20-20.24.16:452][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.20-20.24.17:388][865]LogSavePackage: Save=901.73ms
+[2017.04.20-20.24.17:388][865]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneCE83D5D34E6722A7F5B049A0B38FFB42.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
+[2017.04.20-20.24.17:393][865]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
+[2017.04.20-20.24.57:786][744]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x509)
+[2017.04.20-20.25.02:807][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x508)
+[2017.04.20-20.25.07:288][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2017.04.20-20.25.19:831][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x510)
+[2017.04.20-20.25.29:193][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x507)
+[2017.04.20-20.25.42:072][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x511)
+[2017.04.20-20.26.04:568][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2017.04.20-20.26.39:553][969]Cmd: EDIT COPY
+[2017.04.20-20.26.39:853][986]Cmd: EDIT COPY
+[2017.04.20-20.26.40:171][  4]Cmd: EDIT PASTE
+[2017.04.20-20.26.42:035][113]Cmd: TRANSACTION UNDO
+[2017.04.20-20.26.42:035][113]LogEditorTransaction: Undo Paste Components
+[2017.04.20-20.26.43:086][172]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.04.20-20.26.44:017][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x547)
+[2017.04.20-20.26.44:797][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2017.04.20-20.26.47:625][428]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2017.04.20-20.26.48:488][480]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2017.04.20-20.26.49:987][567]Cmd: TRANSACTION UNDO
+[2017.04.20-20.26.49:987][567]LogEditorTransaction: Undo Paste Component(s)
+[2017.04.20-20.26.53:186][691]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.04.20-20.26.55:049][792]Cmd: EDIT COPY
+[2017.04.20-20.26.55:055][792]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2017.04.20-20.26.55:565][822]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2017.04.20-20.26.55:568][822]Cmd: EDIT PASTE
+[2017.04.20-20.26.56:375][868]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.04.20-20.26.56:526][869]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (Sky Sphere mesh)
+[2017.04.20-20.26.59:734][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2017.04.20-20.27.05:009][294]Cmd: TRANSACTION UNDO
+[2017.04.20-20.27.05:009][294]LogEditorTransaction: Undo Move Actors
+[2017.04.20-20.27.07:843][429]Cmd: EDIT COPY
+[2017.04.20-20.27.08:252][453]Cmd: EDIT COPY
+[2017.04.20-20.27.08:724][481]Cmd: EDIT PASTE
+[2017.04.20-20.27.24:107][118]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2017.04.20-20.27.44:552][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x514)
+[2017.04.20-20.28.42:967][ 69]Cmd: TRANSACTION UNDO
+[2017.04.20-20.28.42:967][ 69]LogEditorTransaction: Undo Set actor scale
+[2017.04.20-20.28.43:427][ 94]Cmd: TRANSACTION UNDO
+[2017.04.20-20.28.43:427][ 94]LogEditorTransaction: Undo Set actor scale
+[2017.04.20-20.28.44:971][182]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.04.20-20.28.48:191][289]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x514)
+[2017.04.20-20.29.05:426][ 79]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
+[2017.04.20-20.29.05:802][ 99]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Wall_500x514)
+[2017.04.20-20.29.06:043][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x514)
+[2017.04.20-20.29.06:873][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x514)
+[2017.04.20-20.29.06:970][162]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
+[2017.04.20-20.29.07:970][220]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMesh)
+[2017.04.20-20.29.12:711][489]Cmd: DELETE
+[2017.04.20-20.29.12:711][489]Cmd: ACTOR DELETE
+[2017.04.20-20.29.12:736][489]LogEditorActor: Deleted 1 Components (0.024 secs)
+[2017.04.20-20.29.18:854][769]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2017.04.20-20.29.18:997][772]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
+[2017.04.20-20.29.19:617][802]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
+[2017.04.20-20.29.19:863][815]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Wall_500x501)
+[2017.04.20-20.29.20:586][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2017.04.20-20.29.21:242][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2017.04.20-20.29.21:434][902]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
+[2017.04.20-20.29.22:097][940]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
+[2017.04.20-20.29.22:206][944]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Wall_500x501)
+[2017.04.20-20.29.22:429][955]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2017.04.20-20.29.22:924][983]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.04.20-20.29.23:119][991]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.04.20-20.29.23:591][ 17]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.04.20-20.29.24:072][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2017.04.20-20.29.24:661][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2017.04.20-20.29.24:738][ 77]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
+[2017.04.20-20.29.31:619][383]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
+[2017.04.20-20.29.31:740][386]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Wall_500x501)
+[2017.04.20-20.29.32:689][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2017.04.20-20.29.32:829][446]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
+[2017.04.20-20.29.33:878][507]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMesh)
+[2017.04.20-20.29.42:149][980]Cmd: DELETE
+[2017.04.20-20.29.42:149][980]Cmd: ACTOR DELETE
+[2017.04.20-20.29.42:172][980]LogEditorActor: Deleted 1 Components (0.023 secs)
+[2017.04.20-20.29.50:892][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x514)
+[2017.04.20-20.30.21:506][804]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x503)
+[2017.04.20-20.31.02:143][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x511)
+[2017.04.20-20.31.09:437][170]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x511)
+[2017.04.20-20.31.10:060][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x511)
+[2017.04.20-20.31.11:249][273]Cmd: EDIT COPY
+[2017.04.20-20.31.11:828][307]Cmd: EDIT PASTE
+[2017.04.20-20.31.38:702][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x503)
+[2017.04.20-20.31.39:522][599]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x550)
+[2017.04.20-20.32.47:788][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.20-20.32.48:772][684]LogSavePackage: Save=905.37ms
+[2017.04.20-20.32.48:772][684]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneA5400B464EB808EFB209A0A56271E929.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
+[2017.04.20-20.32.48:778][684]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
+[2017.04.20-20.34.01:516][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x524)
+[2017.04.20-20.34.10:986][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x524)
+[2017.04.20-20.34.11:731][980]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_500x524)
+[2017.04.20-20.34.14:856][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x525)
+[2017.04.20-20.34.15:437][181]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_500x525)
+[2017.04.20-20.34.24:065][671]Cmd: DELETE
+[2017.04.20-20.34.24:065][671]Cmd: ACTOR DELETE
+[2017.04.20-20.34.24:067][671]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-20.34.24:101][671]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2017.04.20-20.34.34:141][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x524)
+[2017.04.20-20.35.10:422][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2017.04.20-20.35.33:064][639]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x507)
+[2017.04.20-20.36.02:682][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x505)
+[2017.04.20-20.36.21:288][530]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x506)
+[2017.04.20-20.36.36:526][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.20-20.36.37:468][120]LogSavePackage: Save=907.12ms
+[2017.04.20-20.36.37:468][120]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneEE8772E8486E60CBC75C55A5866FBEA6.tmp' to '.
