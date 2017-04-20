@@ -327,4 +327,170 @@ LogInit: Object subsystem initialized
 [2017.04.20-20.12.10:787][991]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/key]
 [2017.04.20-20.12.11:030][991]LogSavePackage: Save=200.31ms
 [2017.04.20-20.12.11:030][991]LogSavePackage: Moving 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/key_Auto1E14D88DE46242A610A66E9A4F35DDA98.tmp' to 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Autosaves/Game/Geometry/Meshes/key_Auto1.uasset'
-[2017.04.20-20.12.11:033][991]LogSavePackage:Display: Finished SavePackage E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogg
+[2017.04.20-20.12.11:033][991]LogSavePackage:Display: Finished SavePackage E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Autosaves/Game/Geometry/Meshes/key_Auto1.uasset
+[2017.04.20-20.12.11:033][991]LogFileHelpers: Auto-saving content packages took 0.342
+[2017.04.20-20.12.44:205][ 51]LogMaterial: Missing cached shader map for material key, compiling. 
+[2017.04.20-20.12.44:346][ 51]LogMaterial: Missing cached shader map for material key, compiling. 
+[2017.04.20-20.12.44:372][ 51]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.20-20.13.20:237][200]Cmd: DELETE
+[2017.04.20-20.13.20:237][200]Cmd: ACTOR DELETE
+[2017.04.20-20.13.20:488][200]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-20.13.20:610][200]LogEditorActor: Deleted 1 Actors (0.141 secs)
+[2017.04.20-20.13.23:013][329]Cmd: TRANSACTION UNDO
+[2017.04.20-20.13.23:013][329]LogEditorTransaction: Undo Delete Actors
+[2017.04.20-20.15.57:374][656]LogMaterial: Missing cached shader map for material key, compiling. 
+[2017.04.20-20.15.57:492][656]LogMaterial: Missing cached shader map for material key, compiling. 
+[2017.04.20-20.15.57:504][656]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.20-20.16.14:845][226]LogMaterial: Missing cached shader map for material key, compiling. 
+[2017.04.20-20.16.14:876][226]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.20-20.16.17:666][304]LogMaterial: Missing cached shader map for material key, compiling. 
+[2017.04.20-20.16.17:685][304]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.20-20.18.31:345][587]LogRenderer: Reallocating scene render targets to support 1192x744 (Frame:16365).
+[2017.04.20-20.19.36:958][885]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.04.20-20.19.37:092][885]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.04.20-20.19.37:119][885]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.20-20.20.11:271][975]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.04.20-20.20.11:317][975]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.04.20-20.20.11:346][975]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.20-20.22.11:699][610]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MazeOne' took 0.052
+[2017.04.20-20.32.12:384][412]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MazeOne' took 0.031
+[2017.04.20-20.42.13:335][213]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MazeOne' took 0.045
+[2017.04.20-20.52.13:726][ 14]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MazeOne' took 0.053
+[2017.04.20-21.02.28:418][536]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MazeOne' took 0.025
+[2017.04.20-21.03.47:031][332]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\lykas\Downloads\SurvivalHorror16112016\Key_B_02.obj)
+[2017.04.20-21.03.47:321][332]LogFbx: Loading FBX Scene from C:\Users\lykas\Downloads\SurvivalHorror16112016\Key_B_02.obj
+[2017.04.20-21.03.47:372][332]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.20-21.05.13:184][332]LogFbx: Loading FBX Scene from C:\Users\lykas\Downloads\SurvivalHorror16112016\Key_B_02.obj
+[2017.04.20-21.05.13:193][332]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.20-21.05.13:275][332]LogLinker:Warning: Can't find file '/Game/mazeMaterials/Key_BMat'
+[2017.04.20-21.05.13:276][332]LogLinker:Warning: Can't find file '/Game/mazeMaterials/Key_BMat'
+[2017.04.20-21.05.13:302][332]LogMaterial: Missing cached shader map for material Key_BMat, compiling. 
+[2017.04.20-21.05.13:426][332]LogStaticMesh: Building static mesh Key_B_02...
+[2017.04.20-21.05.13:784][332]LogStaticMesh: Built static mesh [0.36s] /Game/mazeMaterials/Key_B_02.Key_B_02
+[2017.04.20-21.05.14:090][332]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.04.20-21.05.14:090][332]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.04.20-21.07.28:085][  6]Cmd: EDIT CUT
+[2017.04.20-21.07.28:178][  6]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-21.07.28:220][  6]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2017.04.20-21.07.31:772][143]Cmd: TRANSACTION UNDO
+[2017.04.20-21.07.31:772][143]LogEditorTransaction: Undo Cut
+[2017.04.20-21.10.55:921][466]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\lykas\Downloads\SurvivalHorror16112016\Key_B_02.obj)
+[2017.04.20-21.10.55:944][466]LogFbx: Loading FBX Scene from C:\Users\lykas\Downloads\SurvivalHorror16112016\Key_B_02.obj
+[2017.04.20-21.10.55:967][466]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.20-21.11.05:238][466]LogFbx: Loading FBX Scene from C:\Users\lykas\Downloads\SurvivalHorror16112016\Key_B_02.obj
+[2017.04.20-21.11.05:249][466]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.20-21.11.05:252][466]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Key_BMat'
+[2017.04.20-21.11.05:252][466]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Key_BMat'
+[2017.04.20-21.11.05:258][466]LogMaterial: Missing cached shader map for material Key_BMat, compiling. 
+[2017.04.20-21.11.05:283][466]LogStaticMesh: Building static mesh Key_B_02...
+[2017.04.20-21.11.05:319][466]LogStaticMesh: Built static mesh [0.04s] /Game/Geometry/Meshes/Key_B_02.Key_B_02
+[2017.04.20-21.11.05:328][466]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.04.20-21.11.05:328][466]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.04.20-21.11.58:930][561]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 E:\lyka's documents\COPA\SEMESTER 5\Game\Key-PNG-Image.png)
+[2017.04.20-21.11.59:006][561]LogTexture:Display: Building textures: Key-PNG-Image (BGRA8)
+[2017.04.20-21.12.48:378][359]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 E:\lyka's documents\COPA\SEMESTER 5\Game\Key-PNG-Image.png)
+[2017.04.20-21.12.48:393][359]LogTexture:Display: Building textures: Key-PNG-Image (BGRA8)
+[2017.04.20-21.13.42:126][395]LogMaterial: Missing cached shader map for material Key-PNG-Image_Mat, compiling. 
+[2017.04.20-21.13.43:921][465]LogMaterial: Missing cached shader map for material Key-PNG-Image_Mat, compiling. 
+[2017.04.20-21.13.44:060][465]LogMaterial: Missing cached shader map for material Key-PNG-Image_Mat, compiling. 
+[2017.04.20-21.13.44:080][465]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.20-21.13.44:122][465]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.20-21.14.20:786][410]LogMaterialEditor: Saving and Compiling material Key-PNG-Image_Mat
+[2017.04.20-21.14.21:048][410]LogSavePackage: Save=40.20ms
+[2017.04.20-21.14.21:048][410]LogSavePackage: Moving 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Key-PNG-Image_Mat8D0E0A5040F46AFAFACA76A99A9614A2.tmp' to 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Content/StarterContent/Textures/Key-PNG-Image_Mat.uasset'
+[2017.04.20-21.14.21:049][410]LogSavePackage:Display: Finished SavePackage E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Content/StarterContent/Textures/Key-PNG-Image_Mat.uasset
+[2017.04.20-21.14.45:471][ 56]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MazeOne' took 0.092
+[2017.04.20-21.14.45:473][ 56]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Key_B_02] ([1] browsable assets)...
+[2017.04.20-21.14.45:502][ 56]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/Key_B_02.Key_B_02]
+[2017.04.20-21.14.45:502][ 56]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Key_B_02]
+[2017.04.20-21.14.45:519][ 56]LogSavePackage: Save=14.74ms
+[2017.04.20-21.14.45:519][ 56]LogSavePackage: Moving 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Key_B_02_Auto276A5088B4D968AB823C2F8BE7BECD910.tmp' to 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Autosaves/Game/Geometry/Meshes/Key_B_02_Auto2.uasset'
+[2017.04.20-21.14.45:519][ 56]LogSavePackage:Display: Finished SavePackage E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Autosaves/Game/Geometry/Meshes/Key_B_02_Auto2.uasset
+[2017.04.20-21.14.45:520][ 56]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/Key-PNG-Image] ([1] browsable assets)...
+[2017.04.20-21.14.45:526][ 56]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Textures/Key-PNG-Image.Key-PNG-Image]
+[2017.04.20-21.14.45:526][ 56]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/Key-PNG-Image]
+[2017.04.20-21.14.45:536][ 56]LogSavePackage: Save=8.77ms
+[2017.04.20-21.14.45:536][ 56]LogSavePackage: Moving 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Key-PNG-Image_Auto2FBE8A4AC4B62AC6D39D455B2A8A91C15.tmp' to 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Autosaves/Game/StarterContent/Textures/Key-PNG-Image_Auto2.uasset'
+[2017.04.20-21.14.45:538][ 56]LogSavePackage:Display: Finished SavePackage E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Autosaves/Game/StarterContent/Textures/Key-PNG-Image_Auto2.uasset
+[2017.04.20-21.14.45:538][ 56]LogFileHelpers: Auto-saving content packages took 0.065
+[2017.04.20-21.17.36:634][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Key_B_02" FILE="E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Content/Geometry/Meshes/Key_B_02.uasset" SILENT=true
+[2017.04.20-21.17.36:650][869]LogSavePackage: Save=13.95ms
+[2017.04.20-21.17.36:650][869]LogSavePackage: Moving 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Key_B_0253FEB2FA4A6ADAFB8370139CC4460B06.tmp' to 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Content/Geometry/Meshes/Key_B_02.uasset'
+[2017.04.20-21.17.36:654][869]LogSavePackage:Display: Finished SavePackage E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Content/Geometry/Meshes/Key_B_02.uasset
+[2017.04.20-21.18.20:066][470]LogActorFactory: Actor Factory created Key_B_02
+[2017.04.20-21.18.20:844][483]LogActorFactory: Actor Factory created Key_B_02
+[2017.04.20-21.18.23:864][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.20-21.18.24:071][671]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.04.20-21.18.26:261][862]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Key_B_02)
+[2017.04.20-21.18.27:522][907]Cmd: DELETE
+[2017.04.20-21.18.27:522][907]Cmd: ACTOR DELETE
+[2017.04.20-21.18.27:526][907]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-21.18.27:563][907]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2017.04.20-21.18.29:126][ 14]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.04.20-21.18.30:762][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x523)
+[2017.04.20-21.18.52:594][669]LogActorFactory: Actor Factory created Key_B_02
+[2017.04.20-21.18.53:612][690]LogActorFactory: Actor Factory created Key_B_02
+[2017.04.20-21.19.12:189][992]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.20-21.19.20:722][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Key_B_02)
+[2017.04.20-21.20.03:891][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Key_B_02)
+[2017.04.20-21.20.15:832][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.20-21.20.24:759][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Key_B_02)
+[2017.04.20-21.20.26:079][727]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.04.20-21.20.44:041][512]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Key_B_02)
+[2017.04.20-21.21.00:420][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.20-21.21.02:136][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Key_B_02)
+[2017.04.20-21.21.08:123][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.20-21.23.02:455][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Key_B_02)
+[2017.04.20-21.23.22:032][689]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0044 seconds. Added 112 classes and 0 folders.
+[2017.04.20-21.26.25:643][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Autosaves/Game/MazeOne_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.04.20-21.26.26:096][153]LogSavePackage: Save=437.05ms
+[2017.04.20-21.26.26:096][153]LogSavePackage: Moving 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/MazeOne_Auto3848865CE43D8D8C65A754C99CC4015B2.tmp' to 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Autosaves/Game/MazeOne_Auto3.umap'
+[2017.04.20-21.26.26:097][153]LogSavePackage:Display: Finished SavePackage E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Autosaves/Game/MazeOne_Auto3.umap
+[2017.04.20-21.26.26:155][153]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MazeOne' took 0.584
+[2017.04.20-21.26.26:156][153]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.584
+[2017.04.20-21.26.26:160][153]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/Key_B_02_Blueprint] ([1] browsable assets)...
+[2017.04.20-21.26.26:206][153]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/Key_B_02_Blueprint.Key_B_02_Blueprint]
+[2017.04.20-21.26.26:206][153]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Key_B_02_Blueprint]
+[2017.04.20-21.26.26:266][153]LogSavePackage: Save=57.33ms
+[2017.04.20-21.26.26:266][153]LogSavePackage: Moving 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Key_B_02_Blueprint_Auto3E32D84B643632CC299FDB19A4D2117D9.tmp' to 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Key_B_02_Blueprint_Auto3.uasset'
+[2017.04.20-21.26.26:268][153]LogSavePackage:Display: Finished SavePackage E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Key_B_02_Blueprint_Auto3.uasset
+[2017.04.20-21.26.26:268][153]LogFileHelpers: Auto-saving content packages took 0.110
+[2017.04.20-21.28.27:237][ 38]BlueprintLog: New page: Compile Key_B_02_Blueprint
+[2017.04.20-21.28.29:367][103]LogSavePackage: Save=26.60ms
+[2017.04.20-21.28.29:367][103]LogSavePackage: Moving 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Key_B_02_BlueprintBE83A08242D7646B2F7060802E6FD1F3.tmp' to 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Content/FirstPersonBP/Blueprints/Key_B_02_Blueprint.uasset'
+[2017.04.20-21.28.29:372][103]LogSavePackage:Display: Finished SavePackage E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Content/FirstPersonBP/Blueprints/Key_B_02_Blueprint.uasset
+[2017.04.20-21.29.05:244][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.20-21.29.05:244][618]PIE: New page: PIE session: MazeOne (Apr 20, 2017, 12:29:05 PM)
+[2017.04.20-21.29.05:244][618]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MazeOne
+[2017.04.20-21.29.05:254][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009846s)
+[2017.04.20-21.29.05:255][618]LogAIModule: Creating AISystem for world MazeOne
+[2017.04.20-21.29.05:255][618]LogPlayLevel: PIE: World Init took: (0.001309s)
+[2017.04.20-21.29.05:255][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MazeOne.MazeOne to /Game/UEDPIE_0_MazeOne.MazeOne (0.011482s)
+[2017.04.20-21.29.05:290][618]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.20-21.29.05:299][618]LogInit: FAudioDevice initialized.
+[2017.04.20-21.29.05:404][618]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.04.20-21.29.05:420][618]LogWorld: Bringing World /Game/UEDPIE_0_MazeOne.MazeOne up for play (max tick rate 0) at 2017.04.20-17.29.05
+[2017.04.20-21.29.05:469][618]LogWorld: Bringing up level for play took: 0.063422
+[2017.04.20-21.29.05:473][618]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.20-21.29.05:473][618]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.20-21.29.05:473][618]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.20-21.29.05:480][618]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.20-21.29.05:480][618]PIE: Info Play in editor start time for /Game/UEDPIE_0_MazeOne -0.121
+[2017.04.20-21.29.59:393][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.20-21.30.39:281][407]LogEditorViewport: Clicking on Actor (LMB): Key_B_02_Blueprint_C (Key_B_02_Blueprint)
+[2017.04.20-21.31.39:633][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.20-21.31.50:873][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.20-21.31.52:581][261]LogEditorViewport: Clicking on Actor (LMB): Key_B_02_Blueprint_C (Key_B_02_Blueprint)
+[2017.04.20-21.32.00:394][745]Cmd: TRANSACTION UNDO
+[2017.04.20-21.32.00:395][745]LogEditorTransaction: Undo Move Actors
+[2017.04.20-21.32.28:289][337]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_500x523)
+[2017.04.20-21.32.29:519][402]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.20-21.32.38:114][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x506)
+[2017.04.20-21.32.42:784][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.20-21.32.43:401][745]LogSavePackage: Save=377.64ms
+[2017.04.20-21.32.43:401][745]LogSavePackage: Moving 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/MazeOneC6F7D2304C3EABDEF71C7AABF6F419B3.tmp' to 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Content/MazeOne.umap'
+[2017.04.20-21.32.43:403][745]LogSavePackage:Display: Finished SavePackage E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Content/MazeOne.umap
+[2017.04.20-21.32.43:427][745]LogFileHelpers: Saving map 'MazeOne' took 4.470
+[2017.04.20-21.32.43:465][745]LogSavePackage: Save=24.61ms
+[2017.04.20-21.32.43:465][745]LogSavePackage: Moving 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Saved/Key-PNG-ImageFA81CA304DC463C384245BB609581C5C.tmp' to 'E:/lyka's documents/COPA/SEMESTER 5/Game/MazeJogger/MazeJogger/Content/StarterContent/Textures/Key-PNG-Image.uasset'
+[2017.04.20-21.32.43:467][745]LogSavePackage:Display: Finished SavePackag
