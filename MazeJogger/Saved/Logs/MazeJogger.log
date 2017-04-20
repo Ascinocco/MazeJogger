@@ -1,9 +1,9 @@
-﻿Log file open, 04/20/17 12:15:46
+﻿Log file open, 04/20/17 15:14:54
 LogInit:Display: Running engine for game: MazeJogger
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(509042104) SRandInit(509042104).
+LogInit:Display: RandInit(1132978323) SRandInit(1132978323).
 LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.124230
+LogStats: Stats thread started at 0.088543
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -133,917 +133,105 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.13/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.04.20-16.15.46:588][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.20-16.15.46:588][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.04.20-16.15.46:634][  0]LogInit: Computer: VOSTRO
-[2017.04.20-16.15.46:634][  0]LogInit: User: AnthonyScinocco
-[2017.04.20-16.15.46:634][  0]LogInit: CPU Page size=65536, Cores=2
-[2017.04.20-16.15.46:634][  0]LogInit: High frequency timer resolution =1.656322 MHz
-[2017.04.20-16.15.46:635][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.04.20-16.15.46:635][  0]LogMemory: Platform Memory Stats for Windows
-[2017.04.20-16.15.46:635][  0]LogMemory: Process Physical Memory: 255.24 MB used, 255.24 MB peak
-[2017.04.20-16.15.46:635][  0]LogMemory: Process Virtual Memory: 259.21 MB used, 259.21 MB peak
-[2017.04.20-16.15.46:635][  0]LogMemory: Physical Memory: 4519.36 MB used, 8108.73 MB total
-[2017.04.20-16.15.46:635][  0]LogMemory: Virtual Memory: 621.16 MB used, 134217728.00 MB total
-[2017.04.20-16.15.46:673][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
-[2017.04.20-16.15.48:522][  0]LogD3D11RHI: D3D11 adapters:
-[2017.04.20-16.15.48:533][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
-[2017.04.20-16.15.48:533][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2017.04.20-16.15.48:537][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.04.20-16.15.48:537][  0]LogD3D11RHI:       0/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.04.20-16.15.48:537][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.04.20-16.15.48:548][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.04.20-16.15.48:548][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
-[2017.04.20-16.15.48:548][  0]LogWindows: EnumDisplayDevices:
-[2017.04.20-16.15.48:549][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
-[2017.04.20-16.15.48:549][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
-[2017.04.20-16.15.48:550][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
-[2017.04.20-16.15.48:551][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2017.04.20-16.15.48:551][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
-[2017.04.20-16.15.48:551][  0]LogD3D11RHI:   Driver Version: 20.19.15.4531 (internal:20.19.15.4531, unified:20.19.15.4531)
-[2017.04.20-16.15.48:551][  0]LogD3D11RHI:      Driver Date: 9-29-2016
-[2017.04.20-16.15.48:551][  0]LogRHI: Texture pool is 795 MB (70% of 1136 MB)
-[2017.04.20-16.15.48:561][  0]LogD3D11RHI: Async texture creation enabled
-[2017.04.20-16.15.48:571][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
-[2017.04.20-16.15.48:572][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Intermediate/Shaders/WorkingDirectory/9176/).
-[2017.04.20-16.15.48:572][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ANTHON~1/AppData/Local/Temp/UnrealShaderWorkingDir/70826CDE4016F816898BBD8FC891421E/'.
-[2017.04.20-16.15.48:572][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.04.20-16.15.51:476][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.04.20-16.15.51:521][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.04.20-16.15.51:547][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.04.20-16.15.51:573][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.04.20-16.15.51:598][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.04.20-16.15.51:621][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.04.20-16.15.51:655][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.04.20-16.15.51:683][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.04.20-16.15.51:705][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.04.20-16.15.51:738][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.04.20-16.15.51:769][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.04.20-16.15.51:813][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.04.20-16.15.51:813][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.04.20-16.15.51:818][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.04.20-16.15.51:857][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.04.20-16.15.51:889][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.04.20-16.15.51:916][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.04.20-16.15.51:938][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.04.20-16.15.51:968][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.04.20-16.15.52:002][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.04.20-16.15.52:002][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.04.20-16.15.52:253][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.04.20-16.15.52:454][  0]LogDerivedDataCache: Loaded boot cache 0.20s 64MB C:/Users/Anthony Scinocco/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2017.04.20-16.15.52:454][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Anthony Scinocco/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
-[2017.04.20-16.15.52:455][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.04.20-16.15.52:455][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.04.20-16.15.52:455][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.04.20-16.15.52:455][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.04.20-16.15.52:501][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.04.20-16.15.52:516][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Anthony Scinocco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.04.20-16.15.53:087][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.20-16.15.53:094][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.04.20-16.15.53:384][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2017.04.20-16.15.53:384][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.04.20-16.15.53:384][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2017.04.20-16.15.53:574][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.04.20-16.15.54:332][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: mazejogger, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 148792882
-[2017.04.20-16.15.54:396][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
-[2017.04.20-16.15.54:475][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.072139 seconds
-[2017.04.20-16.15.54:488][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
-[2017.04.20-16.15.54:488][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
-[2017.04.20-16.15.54:488][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.04.20-16.15.54:580][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.04.20-16.15.55:354][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.20-16.15.55:354][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.20-16.15.57:056][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.04.20-16.15.57:089][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.04.20-16.15.57:651][  0]SourceControl: Info Source control is disabled
-[2017.04.20-16.15.57:654][  0]SourceControl: Info Source control is disabled
-[2017.04.20-16.15.57:674][  0]SourceControl: Info Source control is disabled
-[2017.04.20-16.15.57:696][  0]SourceControl: Info Source control is disabled
-[2017.04.20-16.15.58:357][  0]LogEngine: Initializing Engine...
-[2017.04.20-16.15.58:359][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.04.20-16.15.58:719][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.04.20-16.15.58:732][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.04.20-16.15.59:061][  0]LogInit: FAudioDevice initialized.
-[2017.04.20-16.15.59:155][  0]LogDerivedDataCache: Saved boot cache 0.09s 62MB C:/Users/Anthony Scinocco/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2017.04.20-16.15.59:176][  0]LogInit: Texture streaming: Enabled
-[2017.04.20-16.15.59:243][  0]LogInit: Transaction tracking system initialized
-[2017.04.20-16.15.59:302][  0]BlueprintLog: New page: Editor Load
-[2017.04.20-16.15.59:500][  0]LocalizationService: Info Localization service is disabled
-[2017.04.20-16.15.59:690][  0]LogConsoleResponse:Display: 
-[2017.04.20-16.15.59:985][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.04.20-16.15.59:986][  0]LogCook:Display: Mobile HDR setting 1
-[2017.04.20-16.16.00:329][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/' took 0.02s
-[2017.04.20-16.16.00:505][  0]SourceControl: Info Source control is disabled
-[2017.04.20-16.16.00:506][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.04.20-16.16.00:773][  0]LightingResults: New page: Lighting Build
-[2017.04.20-16.16.00:779][  0]MapCheck: New page: Map Check
-[2017.04.20-16.16.00:779][  0]LightingResults: New page: Lighting Build
-[2017.04.20-16.16.04:016][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.04.20-16.16.04:040][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.04.20-16.16.04:041][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.04.20-16.16.04:196][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 154.654ms to complete.
-[2017.04.20-16.16.04:196][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.691
-[2017.04.20-16.16.04:509][  0]LogCollectionManager: Loaded 0 collections in 0.003014 seconds
-[2017.04.20-16.16.04:555][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/Collections/' took 0.01s
-[2017.04.20-16.16.04:555][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/Developers/AnthonyScinocco/Collections/' took 0.01s
-[2017.04.20-16.16.04:556][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/Collections/' took 0.01s
-[2017.04.20-16.16.04:556][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
-[2017.04.20-16.16.04:575][  0]LogContentBrowser: Native class hierarchy populated in 0.0190 seconds. Added 2141 classes and 415 folders.
-[2017.04.20-16.16.04:582][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.04.20-16.16.04:582][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.04.20-16.16.04:583][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0013 seconds. Added 12 classes and 0 folders.
-[2017.04.20-16.16.04:593][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2017.04.20-16.16.05:310][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2017.04.20-16.16.05:320][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
-[2017.04.20-16.16.05:362][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.04.20-16.16.05:369][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.04.20-16.16.05:402][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
-[2017.04.20-16.16.05:403][  0]LogLoad: (Engine Initialization) Total time: 21.29 seconds
-[2017.04.20-16.16.05:403][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.55 seconds
-[2017.04.20-16.16.05:403][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.04.20-16.16.05:424][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.04.20-16.16.05:425][  0]LogOcInput: OculusInput pre-init called
-[2017.04.20-16.16.05:445][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.04.20-16.16.05:901][  2]LogRenderer: Reallocating scene render targets to support 808x360 (Frame:2).
-[2017.04.20-16.16.07:638][  4]LogAssetRegistry: Asset discovery search completed in 13.2645 seconds
-[2017.04.20-16.16.07:638][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.04.20-16.16.07:638][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
-[2017.04.20-16.16.12:217][ 78]LogRenderer: Reallocating scene render targets to support 856x372 (Frame:77).
-[2017.04.20-16.16.18:590][203]LogRenderer: Reallocating scene render targets to support 856x376 (Frame:199).
-[2017.04.20-16.16.18:679][204]LogRenderer: Reallocating scene render targets to support 856x384 (Frame:201).
-[2017.04.20-16.16.18:823][205]LogRenderer: Reallocating scene render targets to support 856x404 (Frame:203).
-[2017.04.20-16.16.18:973][206]LogRenderer: Reallocating scene render targets to support 856x428 (Frame:205).
-[2017.04.20-16.16.19:107][207]LogRenderer: Reallocating scene render targets to support 856x468 (Frame:207).
-[2017.04.20-16.16.19:256][208]LogRenderer: Reallocating scene render targets to support 856x500 (Frame:209).
-[2017.04.20-16.17.09:565][251]LogRenderer: Reallocating scene render targets to support 1060x500 (Frame:1000).
-[2017.04.20-16.17.36:440][ 57]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.04.20-16.17.36:461][ 57]LightingResults: New page: Lighting Build
-[2017.04.20-16.17.36:463][ 57]LoadErrors: New page: Loading map: Template_Default.umap
-[2017.04.20-16.17.36:466][ 57]MapCheck: New page: Map Check
-[2017.04.20-16.17.36:466][ 57]LightingResults: New page: Lighting Build
-[2017.04.20-16.17.36:574][ 57]LogAIModule: Creating AISystem for world Untitled_1
-[2017.04.20-16.17.36:608][ 57]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.04.20-16.17.36:632][ 57]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.04.20-16.17.36:735][ 57]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 103.026ms to complete.
-[2017.04.20-16.17.36:735][ 57]LogFileHelpers: Loading map 'Template_Default' took 0.296
-[2017.04.20-16.21.46:170][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-16.21.47:703][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-16.22.01:566][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-16.24.40:009][195]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.04.20-16.25.37:163][464]LogActorFactory: Actor Factory created Wall_400x400
-[2017.04.20-16.25.38:819][501]LogActorFactory: Actor Factory created Wall_400x400
-[2017.04.20-16.25.57:609][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
-[2017.04.20-16.26.01:725][ 42]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x400)
-[2017.04.20-16.26.20:302][ 42]Cmd: DELETE
-[2017.04.20-16.26.20:302][ 42]Cmd: ACTOR DELETE
-[2017.04.20-16.26.20:597][ 42]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.04.20-16.26.20:638][ 42]LogEditorActor: Deleted 1 Actors (0.042 secs)
-[2017.04.20-16.27.36:370][780]LogActorFactory: Actor Factory created Wall_500x500
-[2017.04.20-16.27.37:343][801]LogActorFactory: Actor Factory created Wall_500x500
-[2017.04.20-16.27.38:981][837]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2017.04.20-16.27.40:021][874]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-16.27.52:823][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
-[2017.04.20-16.28.52:583][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-16.28.55:797][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
-[2017.04.20-16.29.52:334][566]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_500x500)
-[2017.04.20-16.29.54:875][705]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
-[2017.04.20-16.29.56:238][730]Cmd: EDIT COPY
-[2017.04.20-16.29.57:322][751]Cmd: EDIT PASTE
-[2017.04.20-16.30.14:515][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-16.30.14:606][ 81]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2017.04.20-16.30.16:750][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
-[2017.04.20-16.31.02:610][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-16.31.03:660][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
-[2017.04.20-16.31.05:604][ 74]Cmd: EDIT COPY
-[2017.04.20-16.31.06:845][101]Cmd: EDIT PASTE
-[2017.04.20-16.31.48:935][864]LogActorFactory: Actor Factory created Wall_Door_400x400
-[2017.04.20-16.31.50:766][903]LogActorFactory: Actor Factory created Wall_Door_400x400
-[2017.04.20-16.32.52:004][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2017.04.20-16.33.18:022][714]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.04.20-16.33.19:162][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2017.04.20-16.33.24:624][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x502)
-[2017.04.20-16.33.30:507][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2017.04.20-16.34.25:564][  1]Cmd: TRANSACTION UNDO
-[2017.04.20-16.34.25:564][  1]LogEditorTransaction: Undo Set actor scale
-[2017.04.20-16.34.50:567][409]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2017.04.20-16.35.35:032][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x502)
-[2017.04.20-16.35.36:530][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2017.04.20-16.35.44:386][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-16.35.53:682][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2017.04.20-16.35.55:709][680]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.04.20-16.35.56:917][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2017.04.20-16.36.02:051][806]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.04.20-16.36.06:145][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x502)
-[2017.04.20-16.36.11:452][990]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
-[2017.04.20-16.36.12:442][ 27]Cmd: ACTOR SELECT ALL
-[2017.04.20-16.36.13:137][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x502)
-[2017.04.20-16.36.32:075][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2017.04.20-16.36.36:448][519]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x502)
-[2017.04.20-16.36.53:380][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2017.04.20-16.36.59:714][777]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2017.04.20-16.37.30:586][420]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
-[2017.04.20-16.37.31:673][467]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.04.20-16.37.37:354][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
-[2017.04.20-16.37.44:736][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2017.04.20-16.38.04:251][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2017.04.20-16.38.05:484][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2017.04.20-16.38.59:129][966]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
-[2017.04.20-16.38.59:129][966]LogSynthBenchmark:Display: ===============
-[2017.04.20-16.38.59:129][966]LogSynthBenchmark:Display: Main Processor:
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display:          ... 0.040305 s/Run 'RayIntersect'
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display:          ... 0.043324 s/Run 'Fractal'
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display: 
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display:   CPU Perf Index 0: 63.5 (weight 1.00)
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display:   CPU Perf Index 1: 66.0 (weight 1.50)
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display:  
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display: Graphics:
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display:   Adapter Name: 'Intel(R) HD Graphics Family'
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display:   Vendor Id: 0x8086
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display:   Device Id: 0xa16
-[2017.04.20-16.38.59:213][966]LogSynthBenchmark:Display:   GPU Memory: 113/0/2048 MB
-[2017.04.20-16.38.59:272][966]LogSynthBenchmark:Display:   GPU first test: 0.03s
-[2017.04.20-16.38.59:272][966]LogSynthBenchmark:Display:          ... 0.318 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
-[2017.04.20-16.38.59:272][966]LogSynthBenchmark:Display:          ... 0.232 GigaPix/s, Confidence=89% 'TexHeavy' (likely to be very inaccurate)
-[2017.04.20-16.38.59:272][966]LogSynthBenchmark:Display:          ... 0.221 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
-[2017.04.20-16.38.59:272][966]LogSynthBenchmark:Display:          ... 0.868 GigaPix/s, Confidence=89% 'FillOnly' (likely to be very inaccurate)
-[2017.04.20-16.38.59:272][966]LogSynthBenchmark:Display:          ... 0.051 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:   GPU second test: 0.24s
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:          ... 0.454 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:          ... 0.300 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be inaccurate)
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:          ... 0.287 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:          ... 2.144 GigaPix/s, Confidence=100% 'FillOnly' (likely to be inaccurate)
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:          ... 0.052 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be inaccurate)
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:          ... 0.454 GigaPix/s, Confidence=100% 'ALUHeavyNoise'
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:          ... 0.300 GigaPix/s, Confidence=100% 'TexHeavy'
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:          ... 0.287 GigaPix/s, Confidence=100% 'DepTexHeavy'
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:          ... 2.144 GigaPix/s, Confidence=100% 'FillOnly'
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:          ... 0.052 GigaPix/s, Confidence=100% 'Bandwidth'
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display: 
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:   GPU Perf Index 0: 9.9 (weight 1.00)
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:   GPU Perf Index 1: 4.0 (weight 0.10)
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:   GPU Perf Index 2: 7.5 (weight 0.10)
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:   GPU Perf Index 3: 8.4 (weight 3.00)
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:   GPU Perf Index 4: 4.8 (weight 1.00)
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:   CPUIndex: 65.0
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:   GPUIndex: 7.9
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display: 
-[2017.04.20-16.38.59:532][966]LogSynthBenchmark:Display:          ... Total Time: 0.403273 sec
-[2017.04.20-16.38.59:535][966]LogRenderer: Reallocating scene render targets to support 1060x500 (Frame:24208).
-[2017.04.20-16.39.00:093][967]LogRenderer: Reallocating scene render targets to support 1060x500 (Frame:24209).
-[2017.04.20-16.39.00:196][970]LogContentStreaming: Texture pool size now 400 MB
-[2017.04.20-16.39.11:723][498]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
-[2017.04.20-16.40.16:898][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-16.40.16:973][750]LogSavePackage: Save=39.85ms
-[2017.04.20-16.40.16:973][750]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneCD7BDB1248F9F4F77C478EBBD803646D.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-16.40.16:984][750]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-16.40.17:099][750]LogFileHelpers: Saving map 'MazeOne' took 3.236
-[2017.04.20-16.40.38:870][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
-[2017.04.20-16.41.05:732][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-16.41.05:832][695]LogSavePackage: Save=48.11ms
-[2017.04.20-16.41.05:832][695]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneCF39F22F40A715F16F6A609F69CC7D6B.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-16.41.05:839][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-16.41.19:003][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x502)
-[2017.04.20-16.41.20:039][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2017.04.20-16.41.22:279][343]Cmd: EDIT COPY
-[2017.04.20-16.41.23:182][396]Cmd: EDIT PASTE
-[2017.04.20-16.42.45:393][258]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x502)
-[2017.04.20-16.42.48:789][452]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x502)
-[2017.04.20-16.42.49:586][495]Cmd: EDIT COPY
-[2017.04.20-16.42.50:230][533]Cmd: EDIT PASTE
-[2017.04.20-16.43.27:143][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x503)
-[2017.04.20-16.43.51:635][ 65]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2017.04.20-16.43.56:225][291]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x502)
-[2017.04.20-16.44.28:465][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-16.44.28:544][748]LogSavePackage: Save=38.53ms
-[2017.04.20-16.44.28:544][748]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOne52AB8C5541794280F65FD29CE96F0CE0.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-16.44.28:561][748]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-16.44.55:237][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-16.44.55:353][ 60]LogSavePackage: Save=83.68ms
-[2017.04.20-16.44.55:353][ 60]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOne689BD34A411BAF08BC8AB8A5BBCAE4AC.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-16.44.55:358][ 60]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-16.45.25:759][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-16.45.25:826][668]LogSavePackage: Save=36.25ms
-[2017.04.20-16.45.25:826][668]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneD609354D46D1BC6DB87702984C63CDB6.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-16.45.25:830][668]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-16.45.56:443][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-16.45.56:512][ 74]LogSavePackage: Save=36.43ms
-[2017.04.20-16.45.56:513][ 74]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneBA6782F84FF42CCC13E0EC89719ED0EF.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-16.45.56:517][ 74]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-16.46.09:801][684]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
-[2017.04.20-16.46.11:316][769]Cmd: EDIT COPY
-[2017.04.20-16.46.12:683][850]Cmd: EDIT PASTE
-[2017.04.20-16.47.15:444][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-16.47.15:526][928]LogSavePackage: Save=41.44ms
-[2017.04.20-16.47.15:526][928]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneC1B997B44BDB5B470801998626E22935.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-16.47.15:533][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-16.47.15:599][928]LogFileHelpers: Saving map 'MazeOne' took 0.245
-[2017.04.20-16.47.36:610][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x504)
-[2017.04.20-16.47.43:697][470]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
-[2017.04.20-16.47.43:764][470]Cmd: EDIT COPY
-[2017.04.20-16.47.45:357][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x504)
-[2017.04.20-16.47.48:530][748]Cmd: EDIT COPY
-[2017.04.20-16.47.48:826][765]Cmd: EDIT PASTE
-[2017.04.20-16.47.56:587][201]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-16.48.07:622][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x505)
-[2017.04.20-16.48.10:973][955]Cmd: EDIT COPY
-[2017.04.20-16.48.11:438][982]Cmd: EDIT PASTE
-[2017.04.20-16.48.57:290][179]Cmd: EDIT COPY
-[2017.04.20-16.48.57:703][203]Cmd: EDIT PASTE
-[2017.04.20-16.49.57:216][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x505)
-[2017.04.20-16.49.59:216][186]Cmd: EDIT COPY
-[2017.04.20-16.49.59:747][217]Cmd: EDIT COPY
-[2017.04.20-16.50.00:424][257]Cmd: EDIT PASTE
-[2017.04.20-16.51.02:372][999]Cmd: EDIT COPY
-[2017.04.20-16.51.02:704][ 18]Cmd: EDIT COPY
-[2017.04.20-16.51.02:978][ 34]Cmd: EDIT COPY
-[2017.04.20-16.51.03:583][ 70]Cmd: EDIT PASTE
-[2017.04.20-16.51.47:166][975]Cmd: EDIT COPY
-[2017.04.20-16.51.47:878][ 17]Cmd: EDIT PASTE
-[2017.04.20-16.52.31:888][979]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2017.04.20-16.52.32:967][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-16.52.33:756][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-16.52.34:867][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-16.52.39:543][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x507)
-[2017.04.20-16.54.00:816][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-16.54.01:496][269]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x510)
-[2017.04.20-16.54.03:407][379]Cmd: EDIT COPY
-[2017.04.20-16.54.03:719][397]Cmd: EDIT COPY
-[2017.04.20-16.54.04:349][434]Cmd: EDIT PASTE
-[2017.04.20-16.54.26:428][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x506)
-[2017.04.20-16.55.08:135][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-16.56.05:632][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x511)
-[2017.04.20-16.56.09:049][635]Cmd: EDIT COPY
-[2017.04.20-16.56.09:314][650]Cmd: EDIT COPY
-[2017.04.20-16.56.09:553][664]Cmd: EDIT COPY
-[2017.04.20-16.56.09:857][682]Cmd: EDIT COPY
-[2017.04.20-16.56.10:180][701]Cmd: EDIT COPY
-[2017.04.20-16.56.10:470][718]Cmd: EDIT COPY
-[2017.04.20-16.56.10:961][747]Cmd: EDIT PASTE
-[2017.04.20-16.56.11:134][754]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
-[2017.04.20-16.57.48:580][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x512)
-[2017.04.20-16.59.02:862][863]LogSavePackage: Save=50.59ms
-[2017.04.20-16.59.02:862][863]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOne_Auto18082B09D4E512628B8555A9637BBE6E9.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/Autosaves/Game/MazeOne_Auto1.umap'
-[2017.04.20-16.59.02:864][863]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/Autosaves/Game/MazeOne_Auto1.umap
-[2017.04.20-16.59.02:867][863]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MazeOne' took 0.110
-[2017.04.20-16.59.02:867][863]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.110
-[2017.04.20-16.59.57:156][750]Cmd: EDIT COPY
-[2017.04.20-16.59.57:417][765]Cmd: EDIT COPY
-[2017.04.20-16.59.57:605][776]Cmd: EDIT COPY
-[2017.04.20-16.59.57:779][786]Cmd: EDIT COPY
-[2017.04.20-16.59.57:933][795]Cmd: EDIT COPY
-[2017.04.20-16.59.58:170][809]Cmd: EDIT COPY
-[2017.04.20-16.59.58:393][822]Cmd: EDIT COPY
-[2017.04.20-16.59.58:599][834]Cmd: EDIT COPY
-[2017.04.20-17.00.00:091][923]Cmd: EDIT PASTE
-[2017.04.20-17.00.20:507][973]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.00.25:797][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.00.33:873][519]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x513)
-[2017.04.20-17.00.56:380][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x512)
-[2017.04.20-17.00.57:973][474]Cmd: EDIT COPY
-[2017.04.20-17.00.58:184][486]Cmd: EDIT COPY
-[2017.04.20-17.00.58:356][496]Cmd: EDIT COPY
-[2017.04.20-17.00.58:546][507]Cmd: EDIT COPY
-[2017.04.20-17.01.00:892][638]Cmd: EDIT PASTE
-[2017.04.20-17.01.07:005][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x514)
-[2017.04.20-17.01.25:860][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x513)
-[2017.04.20-17.01.27:985][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x513)
-[2017.04.20-17.01.31:189][983]Cmd: EDIT COPY
-[2017.04.20-17.01.31:482][  0]Cmd: EDIT COPY
-[2017.04.20-17.01.31:686][ 12]Cmd: EDIT COPY
-[2017.04.20-17.01.31:876][ 23]Cmd: EDIT COPY
-[2017.04.20-17.01.32:066][ 34]Cmd: EDIT COPY
-[2017.04.20-17.01.32:238][ 44]Cmd: EDIT COPY
-[2017.04.20-17.01.32:429][ 55]Cmd: EDIT COPY
-[2017.04.20-17.01.32:620][ 66]Cmd: EDIT COPY
-[2017.04.20-17.01.35:379][225]Cmd: EDIT PASTE
-[2017.04.20-17.02.35:061][862]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x515)
-[2017.04.20-17.02.36:506][946]Cmd: EDIT COPY
-[2017.04.20-17.02.36:867][967]Cmd: EDIT PASTE
-[2017.04.20-17.02.48:964][512]Cmd: EDIT COPY
-[2017.04.20-17.02.49:169][523]Cmd: EDIT COPY
-[2017.04.20-17.02.49:341][533]Cmd: EDIT COPY
-[2017.04.20-17.02.50:516][602]Cmd: EDIT PASTE
-[2017.04.20-17.03.26:878][652]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x516)
-[2017.04.20-17.03.57:984][ 46]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2017.04.20-17.04.00:470][183]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2017.04.20-17.04.01:985][269]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.04.09:154][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.04.10:251][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x516)
-[2017.04.20-17.04.29:403][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.04.30:035][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x517)
-[2017.04.20-17.04.55:591][583]Cmd: EDIT COPY
-[2017.04.20-17.04.55:840][597]Cmd: EDIT COPY
-[2017.04.20-17.04.56:710][649]Cmd: EDIT PASTE
-[2017.04.20-17.05.44:764][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.05.45:895][885]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x517)
-[2017.04.20-17.05.50:558][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.06.42:470][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x517)
-[2017.04.20-17.07.08:269][ 57]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x518)
-[2017.04.20-17.07.13:503][311]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x516)
-[2017.04.20-17.07.20:105][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x514)
-[2017.04.20-17.07.21:269][697]Cmd: EDIT COPY
-[2017.04.20-17.07.21:567][714]Cmd: EDIT COPY
-[2017.04.20-17.07.21:773][726]Cmd: EDIT COPY
-[2017.04.20-17.07.22:149][748]Cmd: EDIT PASTE
-[2017.04.20-17.08.07:694][877]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x503)
-[2017.04.20-17.08.09:250][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x519)
-[2017.04.20-17.08.25:522][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-17.08.25:626][708]LogSavePackage: Save=51.77ms
-[2017.04.20-17.08.25:626][708]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneE617D9DB499AD0C1F92E8EB29B3D2853.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-17.08.25:633][708]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-17.08.43:842][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x514)
-[2017.04.20-17.09.16:820][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-17.09.16:897][912]LogSavePackage: Save=44.45ms
-[2017.04.20-17.09.16:897][912]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneA6682ED64E1AF254FBA7E69EAE694F12.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-17.09.16:903][912]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-17.10.44:485][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x506)
-[2017.04.20-17.10.47:305][799]Cmd: EDIT COPY
-[2017.04.20-17.10.47:589][815]Cmd: EDIT COPY
-[2017.04.20-17.10.47:977][838]Cmd: EDIT PASTE
-[2017.04.20-17.11.17:117][285]Cmd: EDIT COPY
-[2017.04.20-17.11.17:413][302]Cmd: EDIT PASTE
-[2017.04.20-17.11.37:381][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x506)
-[2017.04.20-17.11.38:824][338]Cmd: EDIT COPY
-[2017.04.20-17.11.39:255][363]Cmd: EDIT PASTE
-[2017.04.20-17.12.08:723][780]Cmd: EDIT COPY
-[2017.04.20-17.12.09:537][828]Cmd: EDIT PASTE
-[2017.04.20-17.12.32:582][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x506)
-[2017.04.20-17.12.34:371][ 24]Cmd: EDIT COPY
-[2017.04.20-17.12.34:715][ 42]Cmd: EDIT PASTE
-[2017.04.20-17.12.48:385][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x523)
-[2017.04.20-17.12.50:012][796]Cmd: EDIT CUT
-[2017.04.20-17.12.50:017][796]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.04.20-17.12.50:044][796]LogEditorActor: Deleted 1 Actors (0.028 secs)
-[2017.04.20-17.12.53:879][945]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x505)
-[2017.04.20-17.12.55:091][ 12]Cmd: EDIT COPY
-[2017.04.20-17.12.55:391][ 29]Cmd: EDIT PASTE
-[2017.04.20-17.13.21:957][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.13.23:282][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x522)
-[2017.04.20-17.13.26:889][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.13.28:874][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.13.29:561][818]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x522)
-[2017.04.20-17.14.51:323][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x524)
-[2017.04.20-17.14.55:420][877]Cmd: EDIT COPY
-[2017.04.20-17.14.55:751][896]Cmd: EDIT PASTE
-[2017.04.20-17.15.45:097][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x521)
-[2017.04.20-17.17.20:218][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-17.17.20:310][851]LogSavePackage: Save=48.18ms
-[2017.04.20-17.17.20:311][851]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneF6D2366A45D536F05BC06A9AE84251B3.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-17.17.20:318][851]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-17.18.50:233][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x520)
-[2017.04.20-17.18.52:140][ 72]Cmd: EDIT COPY
-[2017.04.20-17.18.53:118][130]Cmd: EDIT PASTE
-[2017.04.20-17.20.01:777][237]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x517)
-[2017.04.20-17.20.06:102][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.20.06:742][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.20.07:459][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.20.08:823][613]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x519)
-[2017.04.20-17.20.16:440][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x517)
-[2017.04.20-17.20.25:484][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x516)
-[2017.04.20-17.20.28:960][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x518)
-[2017.04.20-17.21.16:786][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x522)
-[2017.04.20-17.21.18:013][472]Cmd: EDIT COPY
-[2017.04.20-17.21.18:374][493]Cmd: EDIT PASTE
-[2017.04.20-17.21.33:647][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.21.35:037][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x527)
-[2017.04.20-17.21.43:628][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.21.43:697][667]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2017.04.20-17.21.45:956][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x527)
-[2017.04.20-17.22.04:153][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x526)
-[2017.04.20-17.22.15:667][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.22.16:298][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x527)
-[2017.04.20-17.23.09:416][615]Cmd: EDIT COPY
-[2017.04.20-17.23.09:812][638]Cmd: EDIT PASTE
-[2017.04.20-17.23.14:765][885]Cmd: TRANSACTION UNDO
-[2017.04.20-17.23.14:765][885]LogEditorTransaction: Undo Move Components
-[2017.04.20-17.23.15:318][915]Cmd: TRANSACTION UNDO
-[2017.04.20-17.23.15:318][915]LogEditorTransaction: Undo Paste Components
-[2017.04.20-17.23.17:282][ 26]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.23.18:320][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x527)
-[2017.04.20-17.23.21:121][203]Cmd: EDIT COPY
-[2017.04.20-17.23.21:443][222]Cmd: EDIT PASTE
-[2017.04.20-17.23.32:173][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x519)
-[2017.04.20-17.23.33:273][795]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_500x519)
-[2017.04.20-17.23.39:495][130]Cmd: DELETE
-[2017.04.20-17.23.39:495][130]Cmd: ACTOR DELETE
-[2017.04.20-17.23.39:496][130]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.04.20-17.23.39:527][130]LogEditorActor: Deleted 1 Actors (0.032 secs)
-[2017.04.20-17.23.40:974][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x517)
-[2017.04.20-17.24.18:796][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.24.19:579][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x528)
-[2017.04.20-17.26.33:281][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x513)
-[2017.04.20-17.26.34:482][659]Cmd: EDIT COPY
-[2017.04.20-17.26.34:847][680]Cmd: EDIT PASTE
-[2017.04.20-17.26.46:061][229]Cmd: EDIT COPY
-[2017.04.20-17.26.46:579][259]Cmd: EDIT PASTE
-[2017.04.20-17.27.10:039][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.27.11:396][683]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x519)
-[2017.04.20-17.27.18:063][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x529)
-[2017.04.20-17.27.23:845][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x519)
-[2017.04.20-17.27.32:863][776]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.27.34:449][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x529)
-[2017.04.20-17.27.57:859][851]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x519)
-[2017.04.20-17.27.58:134][857]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2017.04.20-17.28.04:938][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x529)
-[2017.04.20-17.28.14:719][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x519)
-[2017.04.20-17.28.15:763][665]Cmd: EDIT COPY
-[2017.04.20-17.28.16:047][681]Cmd: EDIT PASTE
-[2017.04.20-17.28.38:261][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x529)
-[2017.04.20-17.28.42:143][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x530)
-[2017.04.20-17.29.14:860][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x529)
-[2017.04.20-17.29.39:708][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x519)
-[2017.04.20-17.29.41:157][378]Cmd: EDIT COPY
-[2017.04.20-17.29.41:467][395]Cmd: EDIT PASTE
-[2017.04.20-17.29.57:700][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.29.58:622][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x519)
-[2017.04.20-17.30.07:045][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x531)
-[2017.04.20-17.30.10:072][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x519)
-[2017.04.20-17.30.11:382][853]Cmd: EDIT COPY
-[2017.04.20-17.30.11:711][871]Cmd: EDIT PASTE
-[2017.04.20-17.31.00:866][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.31.01:979][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.31.02:898][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x519)
-[2017.04.20-17.31.04:372][362]Cmd: EDIT COPY
-[2017.04.20-17.31.04:586][374]Cmd: EDIT COPY
-[2017.04.20-17.31.05:390][422]Cmd: EDIT PASTE
-[2017.04.20-17.31.37:127][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x533)
-[2017.04.20-17.31.48:952][329]Cmd: EDIT COPY
-[2017.04.20-17.31.49:229][345]Cmd: EDIT COPY
-[2017.04.20-17.31.49:435][357]Cmd: EDIT COPY
-[2017.04.20-17.31.49:998][390]Cmd: EDIT PASTE
-[2017.04.20-17.31.53:547][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-17.31.53:644][586]LogSavePackage: Save=57.03ms
-[2017.04.20-17.31.53:644][586]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOne10CF28B94F8227E3D99CAABF1BEE03F8.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-17.31.53:651][586]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-17.31.54:633][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-17.31.54:750][640]LogSavePackage: Save=70.78ms
-[2017.04.20-17.31.54:750][640]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneAFC6D8564A69979ACF1383824792DC48.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-17.31.54:753][640]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-17.32.01:490][956]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x534)
-[2017.04.20-17.32.11:101][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.32.12:268][569]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x534)
-[2017.04.20-17.32.35:130][623]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x533)
-[2017.04.20-17.32.35:812][659]Cmd: EDIT COPY
-[2017.04.20-17.32.36:056][673]Cmd: EDIT COPY
-[2017.04.20-17.32.36:345][690]Cmd: EDIT PASTE
-[2017.04.20-17.32.44:364][ 36]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.32.45:235][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x535)
-[2017.04.20-17.33.22:379][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x534)
-[2017.04.20-17.33.23:729][713]Cmd: EDIT COPY
-[2017.04.20-17.33.24:022][730]Cmd: EDIT COPY
-[2017.04.20-17.33.24:213][741]Cmd: EDIT COPY
-[2017.04.20-17.33.24:550][761]Cmd: EDIT PASTE
-[2017.04.20-17.33.57:410][189]Cmd: EDIT COPY
-[2017.04.20-17.33.57:466][190]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
-[2017.04.20-17.33.57:630][193]Cmd: EDIT COPY
-[2017.04.20-17.33.57:821][204]Cmd: EDIT COPY
-[2017.04.20-17.33.59:233][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.34.00:218][341]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.34.02:363][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x536)
-[2017.04.20-17.34.03:111][466]Cmd: EDIT COPY
-[2017.04.20-17.34.03:385][482]Cmd: EDIT PASTE
-[2017.04.20-17.34.32:213][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-17.34.32:312][602]LogSavePackage: Save=59.52ms
-[2017.04.20-17.34.32:312][602]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOne96C3931A423EDA680A813385B075D7C2.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-17.34.32:318][602]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-17.35.21:079][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x535)
-[2017.04.20-17.35.22:225][ 27]Cmd: EDIT COPY
-[2017.04.20-17.35.22:570][ 47]Cmd: EDIT COPY
-[2017.04.20-17.35.23:879][124]Cmd: EDIT PASTE
-[2017.04.20-17.36.03:392][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x537)
-[2017.04.20-17.36.08:500][197]Cmd: EDIT COPY
-[2017.04.20-17.36.08:745][210]Cmd: EDIT COPY
-[2017.04.20-17.36.09:626][262]Cmd: EDIT PASTE
-[2017.04.20-17.36.35:775][504]Cmd: EDIT COPY
-[2017.04.20-17.36.36:003][516]Cmd: EDIT COPY
-[2017.04.20-17.36.36:239][529]Cmd: EDIT PASTE
-[2017.04.20-17.38.16:984][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-17.38.17:088][740]LogSavePackage: Save=59.58ms
-[2017.04.20-17.38.17:088][740]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOne6166124A40122A9ED68A2E8E94088C9D.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-17.38.17:095][740]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-17.39.23:148][613]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x511)
-[2017.04.20-17.40.04:559][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x514)
-[2017.04.20-17.40.31:766][694]Cmd: EDIT COPY
-[2017.04.20-17.40.31:989][706]Cmd: EDIT COPY
-[2017.04.20-17.40.32:180][717]Cmd: EDIT COPY
-[2017.04.20-17.40.32:807][754]Cmd: EDIT PASTE
-[2017.04.20-17.40.38:262][ 62]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.40.39:404][125]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.40.43:052][262]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.20-17.40.46:048][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x514)
-[2017.04.20-17.40.47:117][430]Cmd: EDIT COPY
-[2017.04.20-17.40.47:344][443]Cmd: EDIT COPY
-[2017.04.20-17.40.47:715][465]Cmd: EDIT PASTE
-[2017.04.20-17.41.31:798][553]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2017.04.20-17.41.40:224][878]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
-[2017.04.20-17.41.40:963][918]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMesh)
-[2017.04.20-17.41.41:951][972]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMesh)
-[2017.04.20-17.41.45:325][150]Cmd: DELETE
-[2017.04.20-17.41.45:325][150]Cmd: ACTOR DELETE
-[2017.04.20-17.41.45:348][150]LogEditorActor: Deleted 1 Components (0.023 secs)
-[2017.04.20-17.41.49:699][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x514)
-[2017.04.20-17.41.50:375][358]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_500x514)
-[2017.04.20-17.41.58:399][811]Cmd: DELETE
-[2017.04.20-17.41.58:399][811]Cmd: ACTOR DELETE
-[2017.04.20-17.41.58:400][811]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.04.20-17.41.58:436][811]LogEditorActor: Deleted 1 Actors (0.036 secs)
-[2017.04.20-17.42.01:739][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x541)
-[2017.04.20-17.42.31:055][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-17.42.31:145][337]LogSavePackage: Save=58.74ms
-[2017.04.20-17.42.31:145][337]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOne00A8B2E6470E14809085AE8E3CBE7BCC.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-17.42.31:153][337]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-17.43.00:194][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x515)
-[2017.04.20-17.43.01:486][558]Cmd: EDIT COPY
-[2017.04.20-17.43.01:882][581]Cmd: EDIT PASTE
-[2017.04.20-17.45.24:028][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-17.45.24:142][645]LogSavePackage: Save=62.84ms
-[2017.04.20-17.45.24:142][645]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneDB3A8D6F40BB4B4D5F2EBF9316421A83.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-17.45.24:150][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-17.45.24:943][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-17.45.25:048][686]LogSavePackage: Save=69.10ms
-[2017.04.20-17.45.25:048][686]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneF50B896C4E502795398B168251B1C029.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-17.45.25:051][686]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-17.46.55:202][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-17.46.55:294][ 89]LogSavePackage: Save=57.06ms
-[2017.04.20-17.46.55:294][ 89]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneED630A2240979EB236ACD29156D5D0BF.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-17.46.55:297][ 89]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-17.46.55:907][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-17.46.56:003][121]LogSavePackage: Save=58.51ms
-[2017.04.20-17.46.56:003][121]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOne5A8B4F0D4A6ECF84D3BED0BC9B1C33BE.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-17.46.56:008][121]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-17.46.56:524][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-17.46.56:611][148]LogSavePackage: Save=56.19ms
-[2017.04.20-17.46.56:611][148]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneDDFE97E54DF45D6AA92A10929345647C.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-17.46.56:615][148]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-17.47.02:764][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-17.47.02:853][264]LogSavePackage: Save=56.85ms
-[2017.04.20-17.47.02:853][264]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOneE90D794B41FA8BA65B483A86870270A1.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-17.47.02:856][264]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-17.47.03:303][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MazeOne" FILE="../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.20-17.47.03:394][286]LogSavePackage: Save=60.32ms
-[2017.04.20-17.47.03:394][286]LogSavePackage: Moving '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/MazeOne1D98532A43250BE83BC8579D2D7A1588.tmp' to '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap'
-[2017.04.20-17.47.03:398][286]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/MazeOne.umap
-[2017.04.20-17.47.05:893][411]Cmd: QUIT_EDITOR
-[2017.04.20-17.47.05:952][411]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.04.20-17.47.06:002][411]LogExit: Preparing to exit.
-[2017.04.20-17.47.06:662][411]LogDirectoryWatcher: A directory notification for 'C:/Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/' was aborted.
-[2017.04.20-17.47.06:699][411]LogExit: Editor shut down
-[2017.04.20-17.47.06:700][411]LogExit: Transaction tracking system shut down
-[2017.04.20-17.47.06:933][411]LogObj: Freed 0b from 0 cluster array pools.
-[2017.04.20-17.47.06:933][411]LogExit: Object subsystem successfully closed.
-[2017.04.20-17.47.06:956][411]LogD3D11RHI: Shutdown
-[2017.04.20-17.47.06:957][411]LogD3D11RHI: CleanupD3DDevice
-[2017.04.20-17.47.07:063][411]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.04.20-17.47.07:083][411]LogModuleManager: Shutting down and abandoning module SynthBenchmark (235)
-[2017.04.20-17.47.07:083][411]LogModuleManager: Shutting down and abandoning module NewLevelDialog (234)
-[2017.04.20-17.47.07:083][411]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (233)
-[2017.04.20-17.47.07:083][411]LogModuleManager: Shutting down and abandoning module CrashTracker (232)
-[2017.04.20-17.47.07:083][411]LogModuleManager: Shutting down and abandoning module SceneOutliner (231)
-[2017.04.20-17.47.07:083][411]LogModuleManager: Shutting down and abandoning module WidgetCarousel (230)
-[2017.04.20-17.47.07:083][411]LogModuleManager: Shutting down and abandoning module AddContentDialog (229)
-[2017.04.20-17.47.07:083][411]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.13/FeaturePacks/' was aborted.
-[2017.04.20-17.47.07:085][411]LogModuleManager: Shutting down and abandoning module GameplayTags (228)
-[2017.04.20-17.47.07:085][411]LogModuleManager: Shutting down and abandoning module EditorWidgets (227)
-[2017.04.20-17.47.07:085][411]LogModuleManager: Shutting down and abandoning module CollectionManager (226)
-[2017.04.20-17.47.07:085][411]LogDirectoryWatcher: A directory notification for 'C:/Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/Collections/' was aborted.
-[2017.04.20-17.47.07:086][411]LogDirectoryWatcher: A directory notification for 'C:/Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/Developers/AnthonyScinocco/Collections/' was aborted.
-[2017.04.20-17.47.07:086][411]LogDirectoryWatcher: A directory notification for 'C:/Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Saved/Collections/' was aborted.
-[2017.04.20-17.47.07:086][411]LogModuleManager: Shutting down and abandoning module StatsViewer (225)
-[2017.04.20-17.47.07:086][411]LogModuleManager: Shutting down and abandoning module FoliageEdit (224)
-[2017.04.20-17.47.07:086][411]LogModuleManager: Shutting down and abandoning module LandscapeEditor (223)
-[2017.04.20-17.47.07:086][411]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (222)
-[2017.04.20-17.47.07:086][411]LogModuleManager: Shutting down and abandoning module ActorPickerMode (221)
-[2017.04.20-17.47.07:086][411]LogModuleManager: Shutting down and abandoning module GeometryMode (220)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module TextureAlignMode (219)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module BspMode (218)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module HardwareSurvey (217)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (216)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module SequenceRecorder (215)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module AutomationWorker (214)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (213)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module PlacementMode (212)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (211)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (210)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (209)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (208)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (207)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module Media (206)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (205)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (204)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module CharacterAI (203)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module SmartSnapping (202)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module SessionServices (201)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module ViewportSnapping (200)
-[2017.04.20-17.47.07:087][411]LogModuleManager: Shutting down and abandoning module ViewportInteraction (199)
-[2017.04.20-17.47.07:088][411]LogModuleManager: Shutting down and abandoning module LogVisualizer (198)
-[2017.04.20-17.47.07:088][411]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (197)
-[2017.04.20-17.47.07:088][411]LogModuleManager: Shutting down and abandoning module IntroTutorials (196)
-[2017.04.20-17.47.07:088][411]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (195)
-[2017.04.20-17.47.07:088][411]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (194)
-[2017.04.20-17.47.07:088][411]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (193)
-[2017.04.20-17.47.07:088][411]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (192)
-[2017.04.20-17.47.07:795][411]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (191)
-[2017.04.20-17.47.07:795][411]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (190)
-[2017.04.20-17.47.07:795][411]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (189)
-[2017.04.20-17.47.07:795][411]LogModuleManager: Shutting down and abandoning module NiagaraEditor (188)
-[2017.04.20-17.47.07:795][411]LogModuleManager: Shutting down and abandoning module MergeActors (187)
-[2017.04.20-17.47.07:795][411]LogModuleManager: Shutting down and abandoning module SizeMap (186)
-[2017.04.20-17.47.07:795][411]LogModuleManager: Shutting down and abandoning module TreeMap (185)
-[2017.04.20-17.47.07:795][411]LogModuleManager: Shutting down and abandoning module ReferenceViewer (184)
-[2017.04.20-17.47.07:795][411]LogModuleManager: Shutting down and abandoning module LocalizationService (183)
-[2017.04.20-17.47.07:795][411]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (182)
-[2017.04.20-17.47.07:795][411]LogModuleManager: Shutting down and abandoning module HardwareTargeting (181)
-[2017.04.20-17.47.07:795][411]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (180)
-[2017.04.20-17.47.07:795][411]LogModuleManager: Shutting down and abandoning module UndoHistory (179)
-[2017.04.20-17.47.07:795][411]LogModuleManager: Shutting down and abandoning module UserFeedback (178)
-[2017.04.20-17.47.07:795][411]LogModuleManager: Shutting down and abandoning module XmlParser (177)
-[2017.04.20-17.47.07:795][411]LogModuleManager: Shutting down and abandoning module Blutility (176)
-[2017.04.20-17.47.07:795][411]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (175)
-[2017.04.20-17.47.07:796][411]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (174)
-[2017.04.20-17.47.07:796][411]LogModuleManager: Shutting down and abandoning module InputBindingEditor (173)
-[2017.04.20-17.47.07:796][411]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (172)
-[2017.04.20-17.47.07:796][411]LogModuleManager: Shutting down and abandoning module SettingsEditor (171)
-[2017.04.20-17.47.07:796][411]LogModuleManager: Shutting down and abandoning module ProjectLauncher (170)
-[2017.04.20-17.47.07:797][411]LogModuleManager: Shutting down and abandoning module SessionFrontend (169)
-[2017.04.20-17.47.07:797][411]LogModuleManager: Shutting down and abandoning module ProfilerClient (168)
-[2017.04.20-17.47.07:797][411]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (167)
-[2017.04.20-17.47.07:797][411]LogModuleManager: Shutting down and abandoning module DeviceManager (166)
-[2017.04.20-17.47.07:840][411]LogModuleManager: Shutting down and abandoning module AutomationController (165)
-[2017.04.20-17.47.07:840][411]LogModuleManager: Shutting down and abandoning module AutomationWindow (164)
-[2017.04.20-17.47.07:840][411]LogModuleManager: Shutting down and abandoning module Layers (163)
-[2017.04.20-17.47.07:840][411]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (162)
-[2017.04.20-17.47.07:840][411]LogModuleManager: Shutting down and abandoning module DetailCustomizations (161)
-[2017.04.20-17.47.07:840][411]LogModuleManager: Shutting down and abandoning module PackagesDialog (160)
-[2017.04.20-17.47.07:840][411]LogModuleManager: Shutting down and abandoning module AnimGraph (159)
-[2017.04.20-17.47.07:841][411]LogModuleManager: Shutting down and abandoning module Persona (158)
-[2017.04.20-17.47.07:841][411]LogModuleManager: Shutting down and abandoning module Kismet (157)
-[2017.04.20-17.47.07:842][411]LogModuleManager: Shutting down and abandoning module GraphEditor (156)
-[2017.04.20-17.47.07:843][411]LogModuleManager: Shutting down and abandoning module ClassViewer (155)
-[2017.04.20-17.47.07:843][411]LogModuleManager: Shutting down and abandoning module Toolbox (154)
-[2017.04.20-17.47.07:843][411]LogModuleManager: Shutting down and abandoning module ModuleUI (153)
-[2017.04.20-17.47.07:843][411]LogModuleManager: Shutting down and abandoning module MovieSceneTools (152)
-[2017.04.20-17.47.07:843][411]LogModuleManager: Shutting down and abandoning module OutputLog (151)
-[2017.04.20-17.47.07:843][411]LogModuleManager: Shutting down and abandoning module GammaUI (150)
-[2017.04.20-17.47.07:843][411]LogModuleManager: Shutting down and abandoning module Documentation (149)
-[2017.04.20-17.47.07:843][411]LogModuleManager: Shutting down and abandoning module Niagara (148)
-[2017.04.20-17.47.07:843][411]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (147)
-[2017.04.20-17.47.07:843][411]LogModuleManager: Shutting down and abandoning module AnalyticsET (146)
-[2017.04.20-17.47.07:843][411]LogModuleManager: Shutting down and abandoning module PortalServices (145)
-[2017.04.20-17.47.07:843][411]LogModuleManager: Shutting down and abandoning module PortalRpc (144)
-[2017.04.20-17.47.07:843][411]LogModuleManager: Shutting down and abandoning module MessagingRpc (143)
-[2017.04.20-17.47.07:843][411]LogModuleManager: Shutting down and abandoning module GameplayDebugger (142)
-[2017.04.20-17.47.07:843][411]LogModuleManager: Shutting down and abandoning module AITestSuite (141)
-[2017.04.20-17.47.07:843][411]LogModuleManager: Shutting down and abandoning module AIModule (140)
-[2017.04.20-17.47.07:843][411]LogModuleManager: Shutting down and abandoning module ProfilerService (139)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module TaskGraph (138)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module SlateRemote (137)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module SteamVRController (136)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module SteamVR (135)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (134)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (133)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module OculusLibrary (132)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module OculusInput (131)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (130)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module CableComponent (129)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (126)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
-[2017.04.20-17.47.07:904][411]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
-[2017.04.20-17.47.07:905][411]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
-[2017.04.20-17.47.07:905][411]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
-[2017.04.20-17.47.07:905][411]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
-[2017.04.20-17.47.07:905][411]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
-[2017.04.20-17.47.07:905][411]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
-[2017.04.20-17.47.07:905][411]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
-[2017.04.20-17.47.07:905][411]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
-[2017.04.20-17.47.07:905][411]LogModuleManager: Shutting down and abandoning module SourceControl (109)
-[2017.04.20-17.47.07:905][411]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
-[2017.04.20-17.47.07:905][411]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
-[2017.04.20-17.47.07:905][411]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
-[2017.04.20-17.47.07:905][411]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
-[2017.04.20-17.47.07:905][411]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
-[2017.04.20-17.47.07:905][411]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
-[2017.04.20-17.47.07:905][411]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
-[2017.04.20-17.47.07:906][411]LogModuleManager: Shutting down and abandoning module HotReload (101)
-[2017.04.20-17.47.07:907][411]LogModuleManager: Shutting down and abandoning module MainFrame (100)
-[2017.04.20-17.47.07:907][411]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
-[2017.04.20-17.47.07:909][411]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
-[2017.04.20-17.47.07:911][411]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
-[2017.04.20-17.47.07:911][411]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
-[2017.04.20-17.47.08:012][411]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module Paper2D (93)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module VREditor (87)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module Sequencer (81)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module MessageLog (79)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module AssetTools (78)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
-[2017.04.20-17.47.08:113][411]LogModuleManager: Shutting down and abandoning module UMG (76)
-[2017.04.20-17.47.08:114][411]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
-[2017.04.20-17.47.08:114][411]LogModuleManager: Shutting down and abandoning module Slate (74)
-[2017.04.20-17.47.08:114][411]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
-[2017.04.20-17.47.08:117][411]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
-[2017.04.20-17.47.08:117][411]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
-[2017.04.20-17.47.08:117][411]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
-[2017.04.20-17.47.08:117][411]LogModuleManager: Shutting down and abandoning module Networking (68)
-[2017.04.20-17.47.08:117][411]LogModuleManager: Shutting down and abandoning module Core (67)
-[2017.04.20-17.47.08:117][411]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
-[2017.04.20-17.47.08:118][411]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.04.20-17.47.08:118][411]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/' was aborted.
-[2017.04.20-17.47.08:118][411]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.04.20-17.47.08:120][411]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
-[2017.04.20-17.47.08:363][411]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
-[2017.04.20-17.47.08:363][411]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
-[2017.04.20-17.47.08:363][411]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
-[2017.04.20-17.47.08:363][411]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
-[2017.04.20-17.47.08:408][411]LogDerivedDataCache: Shutdown
-[2017.04.20-17.47.08:408][411]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
-[2017.04.20-17.47.08:408][411]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
-[2017.04.20-17.47.08:408][411]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
-[2017.04.20-17.47.08:408][411]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
-[2017.04.20-17.47.08:408][411]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
-[2017.04.20-17.47.08:408][411]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
-[2017.04.20-17.47.08:408][411]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
-[2017.04.20-17.47.08:408][411]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module Messaging (41)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
-[2017.04.20-17.47.08:409][411]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
-[2017.04.20-17.47.08:410][411]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
-[2017.04.20-17.47.08:410][411]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
-[2017.04.20-17.47.08:410][411]LogModuleManager: Shutting down and abandoning module InputCore (24)
-[2017.04.20-17.47.08:410][411]LogModuleManager: Shutting down and abandoning module Settings (23)
-[2017.04.20-17.47.08:410][411]LogModuleManager: Shutting down and abandoning module OculusRift (22)
-[2017.04.20-17.47.08:410][411]LogModuleManager: Shutting down and abandoning module GearVR (21)
-[2017.04.20-17.47.08:410][411]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
-[2017.04.20-17.47.08:410][411]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
-[2017.04.20-17.47.08:410][411]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
-[2017.04.20-17.47.08:410][411]LogOnline:Display: Unloading online subsystem: NULL
-[2017.04.20-17.47.08:410][411]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2017.04.20-17.47.08:410][411]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.04.20-17.47.08:410][411]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B569E70A8-4018-93AA-AA46-969EFD543621%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=534d99884e8db87edbf9f9b88492ce32%7C7bc83405d4514d86a3cab21a928fbecf%7Cd86dd533-44b4-4e31-979b-068025ca1b8d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.04.20-17.47.08:421][411]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2017.04.20-17.47.08:422][411]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.04.20-17.47.08:422][411]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.04.20-17.47.08:422][411]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.04.20-17.47.08:422][411]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.04.20-17.47.08:427][411]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.04.20-17.47.08:427][411]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.04.20-17.47.08:427][411]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.04.20-17.47.08:427][411]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.04.20-17.47.08:427][411]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.04.20-17.47.08:427][411]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.04.20-17.47.08:427][411]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.04.20-17.47.08:427][411]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.04.20-17.47.08:427][411]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.04.20-17.47.08:427][411]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.04.20-17.47.08:430][411]LogExit: Exiting.
-[2017.04.20-17.47.08:465][411]Log file closed, 04/20/17 13:47:08
+[2017.04.20-19.14.54:955][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.20-19.14.54:955][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.20-19.14.54:992][  0]LogInit: Computer: VOSTRO
+[2017.04.20-19.14.54:992][  0]LogInit: User: AnthonyScinocco
+[2017.04.20-19.14.54:992][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.04.20-19.14.54:992][  0]LogInit: High frequency timer resolution =1.656322 MHz
+[2017.04.20-19.14.54:993][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.04.20-19.14.54:993][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.20-19.14.54:993][  0]LogMemory: Process Physical Memory: 255.36 MB used, 255.36 MB peak
+[2017.04.20-19.14.54:993][  0]LogMemory: Process Virtual Memory: 259.28 MB used, 259.28 MB peak
+[2017.04.20-19.14.54:993][  0]LogMemory: Physical Memory: 3510.64 MB used, 8108.73 MB total
+[2017.04.20-19.14.54:993][  0]LogMemory: Virtual Memory: 621.16 MB used, 134217728.00 MB total
+[2017.04.20-19.14.55:024][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2017.04.20-19.14.56:282][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.20-19.14.56:295][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.04.20-19.14.56:295][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.04.20-19.14.56:298][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.20-19.14.56:298][  0]LogD3D11RHI:       0/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.20-19.14.56:298][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.20-19.14.56:310][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.20-19.14.56:311][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.20-19.14.56:311][  0]LogWindows: EnumDisplayDevices:
+[2017.04.20-19.14.56:311][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.04.20-19.14.56:311][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.04.20-19.14.56:312][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.04.20-19.14.56:312][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.04.20-19.14.56:312][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
+[2017.04.20-19.14.56:312][  0]LogD3D11RHI:   Driver Version: 20.19.15.4531 (internal:20.19.15.4531, unified:20.19.15.4531)
+[2017.04.20-19.14.56:312][  0]LogD3D11RHI:      Driver Date: 9-29-2016
+[2017.04.20-19.14.56:312][  0]LogRHI: Texture pool is 795 MB (70% of 1136 MB)
+[2017.04.20-19.14.56:321][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.20-19.14.56:328][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.04.20-19.14.56:328][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Intermediate/Shaders/WorkingDirectory/8652/).
+[2017.04.20-19.14.56:329][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ANTHON~1/AppData/Local/Temp/UnrealShaderWorkingDir/4B85ECA647CAAE51306FF2B3DE59B375/'.
+[2017.04.20-19.14.56:329][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.20-19.14.58:434][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.20-19.14.58:452][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.20-19.14.58:471][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.20-19.14.58:489][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.20-19.14.58:507][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.20-19.14.58:522][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.20-19.14.58:536][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.20-19.14.58:550][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.20-19.14.58:564][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.20-19.14.58:581][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.20-19.14.58:594][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.20-19.14.58:621][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.20-19.14.58:621][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.20-19.14.58:623][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.20-19.14.58:654][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.20-19.14.58:666][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.20-19.14.58:680][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.20-19.14.58:696][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.20-19.14.58:712][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.20-19.14.58:728][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.20-19.14.58:728][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.20-19.14.58:855][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.20-19.14.58:989][  0]LogDerivedDataCache: Loaded boot cache 0.13s 62MB C:/Users/Anthony Scinocco/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.04.20-19.14.58:989][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Anthony Scinocco/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.04.20-19.14.58:989][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.20-19.14.58:989][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.20-19.14.58:989][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.20-19.14.58:989][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.20-19.14.59:024][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.20-19.14.59:038][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Anthony Scinocco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.20-19.14.59:436][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.20-19.14.59:443][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.20-19.14.59:637][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.04.20-19.14.59:637][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.20-19.14.59:637][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.04.20-19.14.59:778][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.20-19.15.00:336][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: mazejogger, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 148792882
+[2017.04.20-19.15.00:387][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2017.04.20-19.15.00:458][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.065213 seconds
+[2017.04.20-19.15.00:471][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2017.04.20-19.15.00:471][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2017.04.20-19.15.00:471][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.20-19.15.00:486][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.20-19.15.00:913][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.20-19.15.00:914][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.20-19.15.02:201][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.20-19.15.02:226][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.20-19.15.02:626][  0]SourceControl: Info Source control is disabled
+[2017.04.20-19.15.02:628][  0]SourceControl: Info Source control is disabled
+[2017.04.20-19.15.02:648][  0]SourceControl: Info Source control is disabled
+[2017.04.20-19.15.02:662][  0]SourceControl: Info Source control is disabled
+[2017.04.20-19.15.03:133][  0]LogEngine: Initializing Engine...
+[2017.04.20-19.15.03:134][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.20-19.15.03:407][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.20-19.15.03:417][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.20-19.15.03:683][  0]LogInit: FAudioDevice initialized.
+[2017.04.20-19.15.03:745][  0]LogDerivedDataCache: Saved boot cache 0.06s 62MB C:/Users/Anthony Scinocco/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.04.20-19.15.03:766][  0]LogInit: Texture streaming: Enabled
+[2017.04.20-19.15.03:819][  0]LogInit: Transaction tracking system initialized
+[2017.04.20-19.15.03:861][  0]BlueprintLog: New page: Editor Load
+[2017.04.20-19.15.03:994][  0]LocalizationService: Info Localization service is disabled
+[2017.04.20-19.15.04:565][  0]LogConsoleResponse:Display: 
+[2017.04.20-19.15.04:799][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.20-19.15.04:799][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.20-19.15.05:102][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Anthony Scinocco/Desktop/MazeJogger/MazeJogger/MazeJogger/Content/' took 0.03s
+[2017.04.20-19.15.05:102][  0]SourceControl: Info Source control is disabled
+[2017.04.20-19.15.05:102][  0]Cmd: MAP LOAD FILE="../../../../../../Users/A
